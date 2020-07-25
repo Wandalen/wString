@@ -3,5 +3,5 @@ let _ = require( 'wstring' );
 
 /**/
 
-___
+console.log( '___ not implemented ___' );
 
