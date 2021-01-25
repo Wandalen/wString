@@ -1,18 +1,34 @@
 {
-  "name" : "wstring",
-  "version" : "0.2.40",
-  "description" : "___",
-  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
-  "license" : "MIT",
-  "main" : "proto/wtools/Tools.s",
-  "files" : [ "proto/wtools/___", "proto/wtools/Tools.s" ],
-  "scripts" : { "test" : "wtest .run proto rapidity:-3", "docgen" : "wdocgen .build proto" },
-  "repository" : { "type" : "git", "url" : "https://github.com/Wandalen/wString.git" },
-  "bugs" :
-  {
-    "url" : "https://github.com/Wandalen/wString/issues"
+  "name": "wstring",
+  "version": "0.2.41",
+  "description": "___",
+  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "license": "MIT",
+  "main": "proto/wtools/Tools.s",
+  "files": [
+    "proto/wtools/___",
+    "proto/wtools/Tools.s"
+  ],
+  "scripts": {
+    "test": "wtest .run proto rapidity:-3",
+    "docgen": "wdocgen .build proto"
   },
-  "dependencies" : { "wTools" : "alpha" },
-  "devDependencies" : { "eslint" : "7.1.0", "wstring" : "file:.", "wTesting" : "alpha" },
-  "keywords" : [ "wTools" ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wString.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wString/issues"
+  },
+  "dependencies": {
+    "wTools": "alpha"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "wTesting": "alpha",
+    "wstring": "file:."
+  },
+  "keywords": [
+    "wTools"
+  ]
 }
