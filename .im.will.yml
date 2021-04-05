@@ -63,8 +63,8 @@ path:
       raw: compiled
       content: prime
   npm.proto.entry:
-    - /pro/module/wString/proto/wtools/Tools.s
-    - /pro/module/wString/proto/node_modules/wstring
+    - proto/wtools/Tools.s
+    - proto/node_modules/wstring
 reflector:
   reflect.proto:
     inherit: predefined.*
